@@ -1,6 +1,7 @@
 {
   "name": "readmewriter-example",
   "scripts": {
+    "build": "bun build src/index.ts",
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
