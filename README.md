@@ -1,1 +1,1 @@
-To start the dev server, run the command `bun run dev` and open <http://localhost:3000> in your browser.[\[➡️\]](/repos/owev2nf83js7kmr9ur60e2x6/annotations/qehdx5pkmszcarbzanh4a0to)
+<p>To start the dev server, run the command <code>bun run dev</code> and open <a href="http://localhost:3000">http://localhost:3000</a> in your browser.<a href="/repos/owev2nf83js7kmr9ur60e2x6/annotations/qehdx5pkmszcarbzanh4a0to">[➡️]</a></p>
