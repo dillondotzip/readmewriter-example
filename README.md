@@ -28,3 +28,5 @@ bun run build
 | ------ | -------- | ---------- | ----------------------------------------- |
 | GET    | /        | None       | Returns 'Hello Hono!'                     |
 | GET    | /random  | None       | Returns a random number between 1 and 100 |
+
+[Go to the test page](https://github.com/dillondotzip/readmewriter-example/blob/main/readme/Test%20Page.md)
