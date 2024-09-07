@@ -1,32 +1,13 @@
 # readmewriter-example
 
-## Getting Started
-
-### Installation
-
-```bash
-bun install
-```
-
-### Usage
-
-#### How to start the dev server
+To start the dev server, run:
 
 ```bash
 bun run dev
 ```
 
-#### How to build the project
+To build the project, run the following command:
 
 ```bash
 bun run build
 ```
-
-## API Documentation
-
-| Method | Endpoint | Parameters | Description                               |
-| ------ | -------- | ---------- | ----------------------------------------- |
-| GET    | /        | None       | Returns 'Hello Hono!'                     |
-| GET    | /random  | None       | Returns a random number between 1 and 100 |
-
-[Go to the test page](https://github.com/dillondotzip/readmewriter-example/blob/main/readme/Test%20Page.md)
