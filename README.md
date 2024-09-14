@@ -1,4 +1,4 @@
-Here's a table of the API routes based on the provided context:
+# Api Routes
 
 | Route   | Method | Description                                        |
 | ------- | ------ | -------------------------------------------------- |
