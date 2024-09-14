@@ -1,12 +1,6 @@
-Here's a table of the API routes defined in the given context:
+Here's a table of the API routes based on the provided context:
 
-| Route   | Method | Description                                |
-| ------- | ------ | ------------------------------------------ |
-| /       | GET    | Returns "Hello Hono!" as plain text        |
-| /random | GET    | Returns a random integer between 1 and 100 |
-
-To start the dev server, run:
-
-```bash
-bun run dev
-```
+| Route   | Method | Description                                        |
+| ------- | ------ | -------------------------------------------------- |
+| /       | GET    | Returns "Hello Hono!" as plain text                |
+| /random | GET    | Returns a random integer between 1 and 100 as text |
