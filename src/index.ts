@@ -8,7 +8,7 @@ app
   return c.text('Hello Hono!')
 })
 .get('/random', (c) => {
-  return c.text(getRandomInt(1, 50).toString())
+  return c.text(getRandomInt(1, 100).toString())
 })
 
 
