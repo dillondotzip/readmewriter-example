@@ -1,21 +1,6 @@
-To install dependencies:
+# Api Routes
 
-```sh
-bun install
-```
-
-To run:
-
-```sh
-bun run dev
-```
-
-open http://localhost:3000
-
-| /           | GET                                |
-| ----------- | ---------------------------------- |
-| description | Returns a simple greeting message. |
-
-| /random     | GET                                         |
-| ----------- | ------------------------------------------- |
-| description | Returns a random integer between 1 and 100. |
+| Route   | Method | Description                                        |
+| ------- | ------ | -------------------------------------------------- |
+| /       | GET    | Returns "Hello Hono!" as plain text                |
+| /random | GET    | Returns a random integer between 1 and 100 as text |
