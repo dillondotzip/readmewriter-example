@@ -1,0 +1,14 @@
+Use Hono web framework
+Use getRandomInt helper function
+Export app as default
+Set compilerOptions strict to true
+Use react-jsx JSX
+Import JSX from hono/jsx
+Define getRandomInt as exported function 
+Type getRandomInt parameters
+Return random integer from getRandomInt
+Use Math.random to generate random number
+Floor result of Math.random
+Add min param to Math.random result  
+Subtract min from max in Math.random
+Add 1 to max minus min
