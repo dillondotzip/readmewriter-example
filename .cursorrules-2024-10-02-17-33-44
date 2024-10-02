@@ -1,0 +1,9 @@
+Use TypeScript
+Use strict compiler option
+Use JSX
+Import from hono/jsx
+Use getRandomInt utility function
+Return text response
+Export default app 
+Use npm scripts
+Use dev dependencies
