@@ -1,0 +1,13 @@
+Use bun for bundling
+Use math.random for randomness
+Export app as default
+Use Arrow functions
+Destructure imports
+Use TypeScript
+Add tsconfig
+Add package.json
+Use semver for dependencies
+Add devDependencies
+Use scripts for tasks
+Use strict compiler option
+Use jsx/jsxImportSource for JSX
