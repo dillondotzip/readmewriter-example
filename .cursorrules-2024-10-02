@@ -1,0 +1,10 @@
+Use Bun runtime
+Use TypeScript
+Use strict compiler option
+Import/export syntax
+Get random int helper function
+Text response handler
+Numeric response handler
+Bun dev script
+Bun build script
+Type declarations for Bun
