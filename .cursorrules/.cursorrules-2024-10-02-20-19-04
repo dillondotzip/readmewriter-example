@@ -1,0 +1,16 @@
+Use Hono for server
+Use Bun for bundling
+Use typescript
+Use strict compiler options
+Use react-jsx jsx syntax
+Import jsx from hono/jsx
+Use vitest for testing
+Use zod for validation
+Use radix-ui for components
+Use tailwind for styling
+Export app as default
+Use async/await syntax
+Use descriptive naming
+Modularize code
+Follow Airbnb style guide
+Use Prettier formatting
