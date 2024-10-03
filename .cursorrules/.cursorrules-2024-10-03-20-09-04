@@ -1,0 +1,25 @@
+Use Hono for server
+Use Bun for bundling
+Use React JSX for views 
+Use radix UI components
+Use Vitest for testing
+Use Zod for validation
+Use Tailwind for styling
+Use TypeScript
+Export a default App instance
+Use get endpoint for safe operations
+Use post endpoint for non-safe operations
+Use middleware for authentication 
+Use controllers for request logic
+Use services for business logic
+Use repositories for data access
+Use dependency injection
+Use ES6 import/export 
+Use async/await over promises
+Use descriptive variable and function names
+Use camelCase for variables and functions
+Use PascalCase for types 
+Use single quotes for strings
+Use semicolons
+Use 2 space indentation
+Use Prettier and ESLint
