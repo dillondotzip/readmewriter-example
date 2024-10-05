@@ -1,0 +1,13 @@
+Use Hono for server
+Use bun for bundling and running
+Use TypeScript for type safety
+Export a default Hono app instance
+Put route handlers in app.{method} calls
+Return c.text() and c.json() from route handlers 
+Use async handlers for db/network access
+Wrap handler logic in try/catch
+Import and extend base Hono types
+Create shared lib folder for helpers 
+Use bun.config.ts for build configuration
+Use script fields for npm scripts
+Use devDependencies for build dependencies
