@@ -1,0 +1,38 @@
+Code style and formatting:
+
+- Use semicolons at the end of statements
+- Use single quotes for strings
+- Use camelCase for variable and function names
+- Use PascalCase for class and interface names 
+- Use descriptive names for variables and functions
+- Format code consistently with Prettier
+
+Performance optimization:
+
+- Avoid unnecessary re-renders in React components
+- Use memoization for expensive functions
+- Lazy load code splitting with dynamic imports
+- Minimize bundle size with Tree Shaking
+- Use compression with Bun builds
+
+React and JSX:
+
+- Break components into reusable pieces
+- Lift state up to common parents
+- Use Hooks like useState for local state
+- Add keys to dynamic content
+- Prevent unused imports with ESLint
+
+Testing:
+
+- Add unit tests covering critical paths 
+- Mock external services in tests
+- Test edge cases and validation
+- Achieve test coverage goals
+
+Security:
+
+- Validate and sanitize user input
+- Use environment variables for secrets
+- Follow OAuth standards for authentication flows
+- Encrypt sensitive data
