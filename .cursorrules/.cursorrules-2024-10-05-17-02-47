@@ -1,0 +1,19 @@
+1. Use TypeScript for type safety. The project is configured for TypeScript with strict mode enabled.
+
+2. Use single quotes for strings instead of double quotes. 
+
+3. Export functions and components using the `export` keyword instead of `export default`.
+
+4. Use camelCase for variable and function names.
+
+5. Structure files based on features instead of types (e.g. group by pages instead of components vs utils).
+
+6. Break code into small, focused modules and components. Avoid large, dense files.
+
+7. Use JSX for markup in React components. Configure the JSX transform.
+
+8. Make use of Hono's middleware for routing, validation, serialization etc instead of hand-rolled solutions.
+
+9. Write tests for critical business logic. Consider unit vs integration testing.
+
+10. Follow conventions from libraries like Hono for project structure, build process etc.
