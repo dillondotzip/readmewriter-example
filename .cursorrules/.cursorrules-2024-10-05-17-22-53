@@ -1,0 +1,17 @@
+1. Use Hono for server framework
+2. Use Bun for bundling and runtime
+3. Use TypeScript for type safety
+4. Name files and exports with camelCase
+5. Structure code into small, focused modules
+6. Export a default App instance from entry point 
+7. Use c.text() and c.json() for route handlers
+8. Put shared helpers in /lib folder
+9. Configure compilerOptions for JSX and modules
+10. Use npm scripts for build and dev workflows
+11. Keep dependencies minimal
+12. Write small, pure functions where possible
+13. Favor descriptive variable and function names
+14. Format code consistently with Prettier
+15. Add runtime validation with zod or io-ts
+16. Write tests with Vitest 
+17. Measure perf with Bun's built-in profiling
