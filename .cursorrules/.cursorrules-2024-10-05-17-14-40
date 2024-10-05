@@ -1,0 +1,15 @@
+Use Hono for route handling.
+Use Bun for bundling and running the app.
+Use TypeScript for type safety.
+Export a default Hono app instance.
+Put route handlers in separate files for organization.
+Use external helper modules like getRandomInt for reusability.
+Add middleware to handle things like logging, authentication, etc.
+Make routes and handlers small and focused.
+Use env variables and config for handling environment differences.
+Add tests with frameworks like Vitest.
+Use a linter like ESLint to enforce code quality.
+Make sure code is formatted consistently with Prettier.
+Use JSDoc comments for documenting functions and modules.
+Optimize performance by caching data and using pagination.
+Make error handling robust with proper status codes and error messages.
