@@ -1,0 +1,23 @@
+1. Use Hono for building the server. Hono is a fast and lightweight web framework for Node.js.
+
+2. Use TypeScript for type safety. Configure compilerOptions appropriately.
+
+3. Use Bun for bundling and running the app during development.
+
+4. Structure files and directories cleanly. Group by feature instead of file type.
+
+5. Name functions and variables descriptively using camelCase.
+
+6. Format code consistently with Prettier. Configure Prettier rules appropriately. 
+
+7. Modularize code by extracting reusable logic into separate files/folders.
+
+8. Handle errors properly using try/catch blocks. Log errors to the console.
+
+9. Write clean, readable code with proper spacing and indentation.
+
+10. Optimize performance by avoiding unnecessary re-renders and network requests. Use memoization and caching where applicable.
+
+11. Follow React and Next.js best practices for structure, state management.
+
+12. Use Tailwind utilities instead of custom CSS where possible.
