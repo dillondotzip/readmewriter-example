@@ -1,0 +1,16 @@
+Rules:
+
+- Use async/await syntax instead of promises for cleaner code
+- Name components and files with PascalCase
+- Use interface for TypeScript types 
+- Split code into components instead of one large file
+- Add PropTypes for components
+- Destructure props for cleaner component code
+- Use absolute imports instead of relative imports
+- Add comments for complex logic
+- Use Tailwind CSS for styling
+- Make API calls in useEffect hooks
+- Handle errors globally with error boundaries
+- Memoize expensive functions for performance
+- Use React.memo for referential equality 
+- Follow Airbnb style guide conventions
