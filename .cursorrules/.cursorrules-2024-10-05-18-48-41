@@ -1,0 +1,41 @@
+1. Code Style and Structure:
+   - Use consistent indentation (e.g., 2 spaces or 4 spaces) throughout the codebase.
+   - Prefer arrow functions over function expressions for concise code.
+   - Organize imports with separate blocks for third-party imports, local imports, and internal module imports.
+   - Utilize ES modules syntax for import/export statements.
+
+2. Naming Conventions:
+   - Use descriptive and meaningful names for variables, functions, and classes.
+   - Follow camelCase for naming variables and functions.
+   - Use PascalCase for naming classes and React components.
+   - Avoid abbreviations and single-letter variable names unless they are common conventions (e.g., 'i' for index in loops).
+
+3. TypeScript Usage:
+   - Enable strict mode in TypeScript compiler options to catch more errors at compile time.
+   - Leverage type annotations for function parameters, return types, and variables where possible.
+   - Use interfaces or types to define complex data structures and improve code readability.
+   - Prefer TypeScript enums over plain JavaScript enums for type safety.
+
+4. Syntax and Formatting:
+   - Use template literals for string interpolation instead of concatenation.
+   - Prefer object shorthand syntax for object literals.
+   - Use destructuring assignment for objects and arrays to extract values into variables.
+   - Avoid unnecessary ternary operators for simple conditional logic.
+
+5. UI and Styling:
+   - Follow a consistent UI component naming convention (e.g., Button, Header, Card).
+   - Separate concerns by keeping styles in external CSS files or CSS-in-JS solutions.
+   - Consider using a CSS preprocessor like SASS or LESS for enhanced styling capabilities.
+   - Utilize CSS frameworks like Bootstrap or Material-UI for consistent UI design.
+
+6. Performance Optimization:
+   - Minimize unnecessary re-renders in React components by using memoization techniques like React.memo or useMemo.
+   - Implement code splitting to reduce initial bundle size and improve loading performance.
+   - Optimize network requests by bundling API calls or using caching mechanisms where applicable.
+   - Profile and analyze performance using browser developer tools to identify bottlenecks.
+
+7. Key Conventions:
+   - Follow a consistent file structure and naming convention for better organization (e.g., components in a 'components' directory).
+   - Document code using JSDoc comments for functions to improve code maintainability.
+   - Use version control effectively with clear commit messages and branch naming conventions.
+   - Adhere to the DRY (Don't Repeat Yourself) principle to avoid code duplication and improve maintainability.
