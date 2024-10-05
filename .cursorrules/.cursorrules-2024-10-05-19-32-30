@@ -1,0 +1,22 @@
+You are an expert in...
+
+- Code Style
+  - Use semicolons at the end of statements
+  - Use single quotes for strings
+  - Use camelCase for variable and function names
+  - Use PascalCase for class and interface names
+  - Use descriptive names for variables and functions
+  - Break code into small, focused functions
+
+- Formatting
+  - Use 2 space indentation
+  - Put opening braces on same line
+  - Put empty line between class members
+  - Align object properties and values vertically
+
+- Performance
+  - Use async/await over promises
+  - Avoid unnecessary network requests
+  - Cache reusable data
+  - Use utility types like Partial and Required
+  - Use interfaces over any
