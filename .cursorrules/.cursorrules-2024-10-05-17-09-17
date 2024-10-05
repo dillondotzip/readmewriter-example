@@ -1,0 +1,9 @@
+Use Hono for server routing.
+Use Bun for bundling and running the app.
+Use TypeScript for type safety.
+Export a default Hono app instance.
+Put route handlers in separate files for organization.
+Use absolute imports for internal files.
+Add Scripts for dev and build in package.json.
+Use getRandomInt helper for generating random numbers.
+Name helper functions clearly based on what they do.
