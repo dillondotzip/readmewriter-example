@@ -1,0 +1,16 @@
+Rules and best practices:
+- **Code Style**:
+  - Use TypeScript's strict mode to catch more errors at compile time.
+  - Follow a consistent code style guide such as Airbnb or TypeScript's recommended style guide.
+- **Naming Conventions**:
+  - Use descriptive names for variables and functions to improve code readability.
+  - Follow camelCase naming convention for variables and functions.
+- **Syntax**:
+  - Utilize ES6 features like arrow functions for concise code.
+  - Take advantage of TypeScript's type system to define clear interfaces and types.
+- **Formatting**:
+  - Use consistent indentation (e.g., 2 or 4 spaces) for better code readability.
+  - Organize imports alphabetically and group them by type (e.g., external imports, internal imports, local imports).
+- **Performance Optimization**:
+  - Consider memoization techniques for expensive function calls like `getRandomInt` to improve performance.
+  - Profile and optimize critical code paths if performance becomes a concern.
