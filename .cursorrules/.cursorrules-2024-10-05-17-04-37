@@ -1,0 +1,23 @@
+Some general advice:
+
+- Follow Hono framework best practices for route handling, request/response lifecycle, and middleware. Refer to documentation.
+
+- Use descriptive route paths and handler function names.
+
+- Validate input and sanitize output in route handlers. 
+
+- Handle errors gracefully and return appropriate status codes.
+
+- Modularize code by functionality into separate files/folders.
+
+- Add TypeScript types for route parameters, contexts, and returns.
+
+- Set up config for linting, formatting, editorconfig.
+
+- Configure Bun for production bundling, minification, compression.
+
+- Consider adding middleware for logging, security, compression.
+
+- Follow 12 factor principles for configuration, backing services, processes, etc.
+
+Without more code and architectural details to analyze, I cannot provide more specific rules tailored to this project. Please provide more context on the broader codebase, frameworks used, team conventions, etc. for a more helpful analysis.
