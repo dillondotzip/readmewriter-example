@@ -1,0 +1,13 @@
+Use Hono for server routing.
+Use Bun for bundling and running.
+Use TypeScript for type safety.
+Export a default Hono app instance.
+Put route handlers in arrow functions.
+Return responses from route handlers.
+Use getRandomInt helper for generating random numbers.
+Put shared helpers in /lib folder.
+Add compilerOptions to tsconfig.
+Add scripts and dependencies to package.json.
+Use Semicolons.
+Use single quotes for strings.
+Space after keywords like function and return.
