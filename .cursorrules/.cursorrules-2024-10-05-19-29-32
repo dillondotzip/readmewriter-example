@@ -1,0 +1,2 @@
+System prompt:
+Please provide detailed instructions on how to set up a TypeScript project using Node.js with Hono framework and Bun build tool. Include steps for installing dependencies, configuring TypeScript, defining routes with Hono, and building the project with Bun. Additionally, explain how to run the project in development mode and build it for production.
