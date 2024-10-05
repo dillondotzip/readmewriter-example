@@ -1,0 +1,21 @@
+Wrap route handlers in `try/catch` blocks to handle errors.
+
+Use `c.json()` for JSON responses instead of `c.text()`.
+
+Export non-handler code into separate files like `lib/helpers.ts`. 
+
+Use TypeScript interfaces for request/response types.
+
+Follow PascalCase for type names.
+
+Use async/await syntax for async route handlers.
+
+Validate input parameters with Zod or other validators.
+
+Add middleware for logging, authentication, etc.
+
+Use Bun's build tooling for production bundles.
+
+Add ESLint for code linting.
+
+Style components with Tailwind CSS.
