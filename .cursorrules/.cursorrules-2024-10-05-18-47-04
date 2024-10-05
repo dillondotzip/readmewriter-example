@@ -1,0 +1,32 @@
+1. Code Style and Structure:
+   - Use consistent indentation (e.g., 2 spaces or 4 spaces) throughout the codebase.
+   - Prefer arrow functions for concise and clear code.
+   - Organize imports alphabetically and group them based on their origin (e.g., external libraries, internal modules).
+   - Use meaningful variable and function names to enhance code readability.
+
+2. Naming Conventions:
+   - Use camelCase for variable and function names.
+   - Use PascalCase for class names.
+   - Prefix boolean variables with "is" or "has" for clarity (e.g., `isActive`, `hasError`).
+
+3. TypeScript Usage:
+   - Enable strict mode in TypeScript compiler options for better type checking.
+   - Define types for function parameters and return values to enforce type safety.
+   - Utilize interfaces or types to define complex data structures.
+
+4. Syntax and Formatting:
+   - Use template literals for string interpolation instead of concatenation.
+   - Prefer ES6 import/export syntax over CommonJS require/module.exports.
+   - Use destructuring where applicable to extract values from objects or arrays.
+
+5. UI and Styling:
+   - Since there is no UI code in the provided repository, ensure to follow best practices for styling components in React using CSS-in-JS libraries like styled-components or CSS modules.
+
+6. Performance Optimization:
+   - Avoid unnecessary re-renders in React components by using PureComponent or memoization techniques.
+   - Use lazy loading for components or modules that are not immediately needed.
+
+7. Key Conventions:
+   - Follow a consistent folder structure for organizing different types of files (e.g., components, helpers, services).
+   - Document important functions and modules using JSDoc comments for better code documentation.
+   - Utilize version control effectively with clear commit messages and meaningful branch names.
