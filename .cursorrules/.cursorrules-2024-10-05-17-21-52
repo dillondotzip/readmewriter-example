@@ -1,0 +1,10 @@
+[Rule 1] Use semicolons at the end of statements
+[Rule 2] Use single quotes for strings
+[Rule 3] Export one default per file
+[Rule 4] Name components with PascalCase
+[Rule 5] Use arrow functions over anonymous functions
+[Rule 6] Destructure props in components
+[Rule 7] Avoid index as key in mapped components
+[Rule 8] Prefix global styles with app-
+[Rule 9] Use functional components over classes
+[Rule 10] Use async/await over promises
