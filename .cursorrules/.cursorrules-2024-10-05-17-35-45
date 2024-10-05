@@ -1,0 +1,19 @@
+Some code style and structure rules in this codebase:
+
+- Uses Hono web framework for route handling and responses
+- Leverages Bun for bundling, dev server, and builds
+- Implements TypeScript for type safety
+- Exports a default Hono app instance
+- Wraps route handlers in Hono's c.text() for text responses
+- Extracts reusable helper functions like getRandomInt()
+- Uses Arrow functions for concise handlers 
+- Employs naming conventions like getRandomInt() and app constant
+- Imports only what is needed, avoiding namespace imports
+- Defines type for function parameters like getRandomInt
+- Uses Airbnb style guide for formatting, spacing, and semicolons
+- No unused imports or variables
+- Configures JSX and React imports in TSConfig
+- Sets up scripts for dev and build in package.json
+- Uses semver for Hono package
+
+Let me know if you need any clarification or have additional questions!
