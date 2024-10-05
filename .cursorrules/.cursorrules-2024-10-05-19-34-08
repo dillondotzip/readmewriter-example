@@ -1,0 +1,38 @@
+Code Style:
+
+- Use semicolons at the end of statements
+- Prefer const over let when variables are not reassigned
+- Name functions and variables descriptively using camelCase
+- Organize code into small, focused functions with single responsibilities
+- Export only necessary functions and objects
+
+Syntax:
+
+- Use async/await over promises for async logic
+- Destructure objects and arrays to directly access properties
+- Type function parameters and returns
+- Use interface over type for object shapes
+- Avoid any when possible, type variables and parameters as specifically as reasonable
+
+Performance:
+
+- Lazy load dependencies with import() when possible
+- Use Bun's built-in compression and minification
+- Cache reusable values instead of recomputing
+- Use pagination for large lists instead of loading all data
+
+React:
+
+- Break components into reusable presentational and container components
+- Use Hooks like useState, useEffect over classes and lifecycle methods
+- Keep components small and focused on a single purpose
+- Lift state up to common parents instead of syncing across siblings
+- Use keys when rendering lists of components
+
+Hono: 
+
+- Use route parameter validation for security
+- Follow REST principles and conventions
+- Handle errors gracefully and return appropriate status codes
+- Use dependency injection for modular, testable code
+- Rate limit requests to prevent abuse
