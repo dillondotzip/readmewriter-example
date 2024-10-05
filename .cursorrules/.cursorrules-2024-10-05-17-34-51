@@ -1,0 +1,15 @@
+Here are some rules for adapting to this codebase:
+
+- Use Hono for route handling and leveraging its simple API for requests and responses
+- Follow TypeScript best practices like type annotations and interfaces
+- Use Bun for bundling, dev server, and builds
+- Name functions and variables semantically based on their purpose
+- Export key pieces of reusable logic into the /lib folder
+- Leverage Arrow functions over anonymous functions for brevity
+- Structure code into easy-to-navigate segments like routes, helpers, config
+- Keep components and functions small and single-purpose
+- Use modern JavaScript syntax like import/export over require()
+- Enable strict mode in TS config for type safety
+- Use PascalCase for components and camelCase for functions/variables
+- Keep formatting consistent with spacing and braces placement
+- Optimize performance by avoiding unnecessary re-renders
