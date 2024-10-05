@@ -1,0 +1,15 @@
+- Use async/await syntax over promises for readability
+- Export a default instance of the Hono app
+- Use bun for building and running the app
+- Enable strict TypeScript checking
+- Put helper functions in /lib directory
+- Use Arrow functions over anonymous functions
+- Import from 'hono/jsx' for JSX IntelliSense
+- Wrap route handlers in try/catch blocks
+- Log errors to the console
+- Follow PascalCase for types and interfaces
+- Follow camelCase for variables and functions 
+- Use descriptive names for variables and functions
+- Structure files based on features
+- Use Bun's build tooling for production bundles
+- Enable sourcemaps in production
