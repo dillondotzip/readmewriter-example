@@ -1,0 +1,38 @@
+Here are the detailed rules and best practices:
+
+Code Style and Structure:
+
+- Use TypeScript for type safety and tooling
+- Structure code into small, focused modules and components
+- Prefer pure functions instead of classes when possible 
+- Use async/await over promises for async logic
+- Add JSDoc comments for public APIs
+
+Naming Conventions:
+
+- Use camelCase for variables and functions
+- Use PascalCase for components, models, and types 
+- Name files and exports after what they contain
+- Name callbacks and handlers like onX or handleX
+
+Syntax and Formatting:  
+
+- Use 2 space indents, no tabs
+- Put opening braces on same line 
+- Use semicolons
+- Prefer single quotes
+- Maximum line length 100 chars
+
+Performance Optimization:
+
+- Avoid unnecessary re-renders in React components 
+- Use memoization for expensive functions
+- Lazy load non-critical modules
+- Monitor and optimize build size 
+
+Key Conventions:
+
+- Follow Airbnb style guide
+- Use Bun for bundling and builds
+- Use Hono for server routing and rendering
+- Use React JSX for frontend UI
