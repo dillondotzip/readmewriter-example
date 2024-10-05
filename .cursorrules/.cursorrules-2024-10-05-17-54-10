@@ -1,0 +1,56 @@
+Code Style and Structure
+
+- Use PascalCase for component names and camelCase for variable/function names
+- Organize code into folders by feature/page
+- Break code into small, single-purpose functions 
+- Use interfaces for complex type definitions
+- Avoid giant monolithic components - break into reusable pieces
+
+Naming Conventions
+
+- Use descriptive names that convey purpose and meaning
+- Prefix container component names with 'App' 
+- Prefix hook names with 'use'
+- Prefix interface names with 'I'
+- Use full words - avoid abbreviations
+
+TypeScript Usage
+
+- Add explicit types for function parameters and returns
+- Use type inference when possible  
+- Use generics for reusable components
+- Use utility types like Partial and Required
+- Disable any when possible
+
+Syntax and Formatting
+
+- Use Prettier to auto-format code
+- Consistent 2 space indents 
+- Liberal use of line breaks for readability
+- Operators spaced with padding
+- Always use semicolons
+- Single quotes for strings
+
+UI and Styling
+
+- Use Styled Components for CSS-in-JS
+- Break into logical component folders
+- Mobile first responsive design
+- Flexbox for component layouts
+- Max line length 80 characters  
+
+Performance Optimization
+
+- Lazy load routes and components  
+- Use React.memo for referential equality 
+- Virtualize large lists with react-window
+- Compress images
+- Cache API calls when possible  
+
+Key Conventions
+
+- Barrel index files to export modules
+- Group reusable logic into hooks
+- Favor functional components over classes
+- Use async/await over promises
+- Handle errors gracefully
