@@ -1,0 +1,46 @@
+Main technologies/frameworks used:
+- Hono - Fast and lightweight web framework for Node.js
+- Bun - Ultra-fast JavaScript runtime
+- TypeScript - Static typing for JavaScript
+- React JSX - Declarative UI component model 
+
+Code style/structure:
+- Use TypeScript for type safety
+- Component file names are PascalCase
+- Variable and function names are camelCase
+- Indent using 2 spaces
+- Export components and functions
+- Destructure props in components
+- Avoid giant components - break into reusable pieces
+- Wrap components in React.memo for performance
+
+Naming conventions:  
+- Components are PascalCase
+- Hooks start with 'use' prefix
+- Constants are UPPER_SNAKE_CASE
+- Event handlers are handle[Event] 
+- Boolean props are is/has[Property]
+
+UI/styling:
+- Use Tailwind CSS utility classes
+- Add aria-* attributes for accessibility 
+- Mobile-first responsive design
+- Extract inline styles to styled components
+
+Syntax:
+- Prefer arrow functions over function declarations
+- Use template literals instead of string concatenation
+- Always use === instead of ==
+
+Formatting:  
+- Use Prettier to auto-format code
+- Maximum line length 100 characters
+- Newline at end of files
+
+Performance:
+- Lazy load components with React.lazy 
+- Use React.memo on functional components
+- Virtualize long lists with react-window
+- Prefetch data with SWR
+
+Let me know if any additional rules need clarification or expansion!
