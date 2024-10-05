@@ -1,0 +1,21 @@
+Use Hono for server
+Use React for UI
+Use TypeScript for type safety
+Use bun for bundling
+Use node-style modules
+Use arrow functions
+Export default app from main server file
+Put routes in separate files or group by feature
+Use env variables for secrets
+Validate input with zod or io-ts
+Wrap async routes with try/catch 
+Use Radix UI for components
+Style with Tailwind CSS
+Test with Vitest
+Format with Prettier
+Lint with ESLint
+Optimize images
+Lazy load below the fold content
+Use React.memo for referential equality
+Use suspense and dynamic import for code splitting
+Profile with Bun Analytics
