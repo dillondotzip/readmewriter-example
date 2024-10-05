@@ -1,0 +1,13 @@
+Use Hono for API routing
+Use Bun for running and building
+Use React JSX syntax
+Import JSX types from hono/jsx
+Use TypeScript strict mode
+Put helper functions in /lib folder
+Export helper functions instead of classes
+Use semantic versioning in dependencies
+Add @types packages for type safety
+Use numerical statuses in routes
+Return text and JSON from routes
+Use async/await for async logic
+Handle errors explicitly
