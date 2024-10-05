@@ -1,0 +1,38 @@
+Rules to follow:
+1. **TypeScript Strict Mode**: Ensure that TypeScript strict mode is enabled in the `tsconfig.json` file by setting `"strict": true`. This helps catch common errors and enforce best practices during development.
+   
+2. **Dependency Management**:
+   - Use exact versions for dependencies in the `package.json` file to ensure reproducible builds. For example:
+     ```json
+     "dependencies": {
+       "hono": "4.4.12"
+     }
+     ```
+   - Consider using a lock file (e.g., `package-lock.json`) to lock dependency versions for consistent builds across different environments.
+
+3. **Code Structure**:
+   - Organize code into separate modules/files based on functionality. For example, the `getRandomInt` function is placed in a `helpers.ts` file for utility functions.
+   - Follow a consistent naming convention for files and functions to improve code readability and maintainability.
+
+4. **Error Handling**:
+   - Implement error handling mechanisms, such as try-catch blocks or middleware, to handle exceptions and prevent crashes in production environments.
+
+5. **Build Process**:
+   - Utilize the scripts defined in the `package.json` file (`dev` and `build`) for running and building the application. Ensure these scripts are properly configured to streamline the development and deployment process.
+
+6. **Testing**:
+   - Consider incorporating unit tests using frameworks like Jest or Mocha to ensure code reliability and facilitate future refactoring without introducing regressions.
+
+7. **Documentation**:
+   - Document important functions, modules, and APIs using JSDoc comments to improve code maintainability and facilitate collaboration among team members.
+
+8. **Security**:
+   - Implement security best practices, such as input validation and sanitization, to prevent common vulnerabilities like injection attacks.
+
+9. **Performance Optimization**:
+   - Profile the application using tools like Chrome DevTools to identify performance bottlenecks and optimize critical code paths for better user experience.
+
+10. **Version Control**:
+    - Use a version control system like Git to track changes, collaborate with team members, and maintain a history of code modifications. Follow branching strategies like Gitflow for a structured workflow.
+
+Feel free to ask for more specific recommendations based on your project requirements or constraints.
